@@ -1,0 +1,78 @@
+
+
+.box{
+    /* border: 2px solid black; */
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 0 2px 10px 0 rgb(0, 0, 1,0.7),
+    0 3px 20px rgb(0, 0, 1,0.7)
+    ;
+    height: 300px;
+}
+
+.btn{
+    background-color: blueviolet;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    box-shadow: 1px 1px 1px;
+    margin: 5px;
+}
+
+#questions{
+    text-align: center;
+}
+
+#sad{
+    color: red;
+    text-align: center;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    border: 0.5px solid blueviolet;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.hide{
+    z-index: -10;
+    display: none;
+}
+
+.head1{
+    text-align: center;
+}
+
+.toMyLove{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    position: absolute;
+    padding: 20px;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    box-shadow: 0 5px 10px rgb(0, 0, 1,0.7),
+    0 5px 2px rgb(0, 0, 1,0.7);
+
+}
+.loveBox>p{
+    width: 300px;
+}
